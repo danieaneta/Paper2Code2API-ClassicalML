@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Virtualenvs created inside lesson folders when running the code
+**/.venv/
+**/__pycache__/
+
+# Datasets (fetched at runtime via sklearn, not vendored)
+**/data/
+scikit_learn_data/
+*.gz
+
+# Generated during local runs
+**/train_log.txt
+
+# Internal drafts — kept local, not published (mirrors the CV repo's local-only roadmap)
+CURRICULUM-DRAFT.md
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# NOTE: shipped model artifacts (*.npz, *.pkl) are intentionally NOT ignored — they ship with each lesson.

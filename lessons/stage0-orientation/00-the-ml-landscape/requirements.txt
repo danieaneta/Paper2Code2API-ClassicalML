@@ -1,0 +1,6 @@
+# Lesson 0 · The Machine Learning Landscape — pinned dependencies.
+# Concept primer: figures only, no model/train/infer/api.
+# Verified installing + running on Python 3.14.5 (Windows).
+numpy==2.5.1
+scikit-learn==1.9.0          # synthetic datasets for the supervised/unsupervised figure
+matplotlib==3.11.0           # figures
